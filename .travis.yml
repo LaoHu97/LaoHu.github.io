@@ -13,11 +13,6 @@ script:
   - hexo clean
   - hexo generate
 
-success_script:
-  - cd ./public
-  - vi CNAME
-  - lao47.xin
-
 after_script:
   - cd ./public
   - git init
