@@ -12,7 +12,7 @@
   <a href="https://hexo.io">
     <img src="https://img.shields.io/badge/hexo-%3E%3D3.7.0-lightgrey.svg" alt="hexo">
   </a>
-  <a href="https://github.com/iissnan/hexo-theme-next">
+  <a href="https://github.com/theme-next/hexo-theme-next">
     <img src="https://img.shields.io/badge/hexo--theme--next-%3E%3D6.3.0-orange.svg" alt="hexo-theme-next">
   </a>
 </p>
