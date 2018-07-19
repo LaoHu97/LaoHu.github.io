@@ -2,11 +2,10 @@
 
 <h1 align="center">HEXO博客</h1>
 
-<p align="center">
-  <a href="https://travis-ci.org/LaoHu97/LaoHu.github.io">
-    <img src="https://www.travis-ci.org/LaoHu97/LaoHu.github.io.svg?branch=master" alt="travis-ci">
-  </a>
-</p>
+<center>
+  [![Travis-Ci](https://www.travis-ci.org/LaoHu97/LaoHu.github.io.svg?branch=master)](https://travis-ci.org/LaoHu97/LaoHu.github.io)
+  [![CodeFactor](https://www.codefactor.io/repository/github/laohu97/laohu.github.io/badge)](https://www.codefactor.io/repository/github/laohu97/laohu.github.io)
+</center>
 
 ## 博客地址
 
