@@ -535,7 +535,7 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+#baidushare: true
 ##  type: button
 
 # Share
@@ -545,7 +545,7 @@ gitment:
 #jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
 
-#add_this_id:
+  add_this_id: ra-5b5010f0fd25f008
 
 # NeedMoreShare2
 # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
