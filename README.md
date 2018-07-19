@@ -10,10 +10,10 @@
     <img src="https://www.codefactor.io/repository/github/laohu97/laohu.github.io/badge" alt="CodeFactor">
   </a>
   <a href="https://hexo.io">
-    <img src="https://img.shields.io/badge/hexo-%3E%3D3.7.1-red.svg" alt="hexo">
+    <img src="https://img.shields.io/badge/hexo-%3E%3D3.7.0-lightgrey.svg" alt="hexo">
   </a>
   <a href="https://github.com/iissnan/hexo-theme-next">
-    <img src="https://img.shields.io/badge/next--theme-%3E%3D6.3.0-yellow.svg" alt="hexo-theme-next">
+    <img src="https://img.shields.io/badge/hexo--theme--next-%3E%3D6.3.0-orange.svg" alt="hexo-theme-next">
   </a>
 </p>
 
