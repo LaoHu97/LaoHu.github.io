@@ -84,3 +84,4 @@ algolia:
   applicationID: '05GFA1Y32V'
   indexName: 'prod_NAME'
   chunkSize: 5000
+  apiKey: '57804367b189015886ebad2958f5aa33'
