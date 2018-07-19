@@ -2,7 +2,7 @@
 
 <h1 align="center">HEXO博客</h1>
 
-<center>
+<center align="center">
   <a href="https://travis-ci.org/LaoHu97/LaoHu.github.io">
     <img src="https://www.travis-ci.org/LaoHu97/LaoHu.github.io.svg?branch=master" alt="travis-ci">
   </a>
