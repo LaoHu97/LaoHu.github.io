@@ -119,7 +119,7 @@ index_with_subtitle: false
 menu:
   home: / || home
   tags: /tags/ || tags
-  categories: /categories/ || th
+  # categories: /categories/ || th
   about: /about/ || user
   # archives: /archives/ || archive
   # schedule: /schedule/ || calendar
@@ -545,7 +545,7 @@ gitment:
 #jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
 
-  add_this_id: ra-5b5010f0fd25f008
+# add_this_id: ra-5b5010f0fd25f008
 
 # NeedMoreShare2
 # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
