@@ -10,4 +10,8 @@
 
 ## 博客地址
 
-- [点击预览](http://lao47.xin)
+- [点击预览](https://lao47.xin)
+
+## 说明
+
+- masrer 为源码分支，gh-pages 分支为Travis CI持续自动构建生成的
