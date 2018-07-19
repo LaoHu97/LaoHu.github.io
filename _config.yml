@@ -79,3 +79,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+algolia:
+  applicationID: '05GFA1Y32V'
+  indexName: 'prod_NAME'
+  chunkSize: 5000
