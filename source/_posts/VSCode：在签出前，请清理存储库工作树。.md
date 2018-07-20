@@ -8,6 +8,8 @@ tags:
 
 关于VSCode在签出更新代码时报错：**在签出前，请清理存储库工作树**，问题主要是git仓库上的代码和本地代码存在冲突。
 
+<!-- more -->
+
 ![Alt text](https://s1.ax1x.com/2018/07/20/P3hXUe.png)
 
 > 查看git日志：Please commit your changes or stash them before you merge. Aborting
