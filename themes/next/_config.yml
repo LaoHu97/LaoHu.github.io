@@ -475,7 +475,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 9f7f84575fedaccd39e8b7b5077bf276
+# baidu_analytics: 
 
 # Disqus
 disqus:
@@ -580,7 +580,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+  google_analytics: UA-122700919-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
