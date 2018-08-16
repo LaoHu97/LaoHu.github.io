@@ -12,6 +12,7 @@ before_install:
 script:
   - hexo clean
   - hexo generate
+  - hexo deploy
 
 after_script:
   - cd ./public
