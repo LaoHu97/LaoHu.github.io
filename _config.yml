@@ -81,7 +81,7 @@ deploy:
   type: rsync
   host: 45.77.47.155
   user: root
-  root: _4rMA_9W_feF9Cr@
+  root: /www/wwwroot/lao47
   delete: true
   verbose: true
 
