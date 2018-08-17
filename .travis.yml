@@ -1,31 +1,26 @@
 language: ''
-
-# S: Build Lifecycle
 install:
-  - npm install
-
-
+- npm install
 before_install:
-  - npm install -g hexo
-  - npm install -g hexo-cli
-
+- openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
+  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+- npm install -g hexo
+- npm install -g hexo-cli
 script:
-  - hexo clean
-  - hexo d -g
-
+- hexo clean
+- hexo generate
 after_script:
-  - cd ./public
-  - git init
-  - git config user.name "LaoHu47"
-  - git config user.email "962271461@qq.com"
-  - git add .
-  - git commit -m "Update docs"
-  - git push -f -q "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
-# E: Build LifeCycle
-
+- rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ root@45.77.47.155:/www/wwwroot/lao47
+- cd ./public
+- git init
+- git config user.name "LaoHu47"
+- git config user.email "962271461@qq.com"
+- git add .
+- git commit -m "Update docs"
+- git push -f -q "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
 branches:
   only:
-    - master
+  - master
 env:
- global:
-   - GH_REF: github.com/LaoHu97/LaoHu97.github.io
+  global:
+  - GH_REF: github.com/LaoHu97/LaoHu97.github.io
