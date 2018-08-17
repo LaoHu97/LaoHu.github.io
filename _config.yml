@@ -78,7 +78,12 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: 45.77.47.155
+  user: root
+  root: /www/wwwroot/lao47
+  port: 22
+  delete: false
 
 algolia:
   applicationID: '05GFA1Y32V'
