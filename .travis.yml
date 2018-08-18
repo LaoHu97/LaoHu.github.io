@@ -2,17 +2,17 @@ language: ''
 install:
 - npm install
 before_install:
-- openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
-  -in id_rsa.enc -out ~/.ssh/id_rsa -d
-- chmod 600 ~/.ssh/id_rsa
-- echo -e "Host 45.77.47.155\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+# - openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
+#   -in id_rsa.enc -out ~/.ssh/id_rsa -d
+# - chmod 600 ~/.ssh/id_rsa
+# - echo -e "Host 45.77.47.155\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install -g hexo
 - npm install -g hexo-cli
 script:
 - hexo clean
 - hexo generate
 after_script:
-- rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ root@45.77.47.155:/www/wwwroot/lao47
+# - rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ root@45.77.47.155:/www/wwwroot/lao47
 - cd ./public
 - git init
 - git config user.name "LaoHu47"
