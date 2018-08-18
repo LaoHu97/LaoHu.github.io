@@ -3,7 +3,7 @@ install:
 - npm install
 before_install:
 - openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
-  -in id_rsa.enc -out ~/.ssh/id_rsa -d
+  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 45.77.47.155\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install -g hexo
