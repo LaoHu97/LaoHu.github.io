@@ -475,7 +475,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-# baidu_analytics: 
+baidu_analytics: 0d5abd9f2f0e1b0655d4c6aa486e72ea
 
 # Disqus
 disqus:
@@ -490,9 +490,9 @@ disqusapi:
   forum: 'lao47'
   site: 'https://lao47.xin'
   api: 'https://lao47.xin/disqus/api'
-  mode: 3
-  badge: '博主'
-  timeout: 3000
+  mode: 1
+  badge: '张妖怪'
+  timeout: 2000
 
 # changyan
 changyan:
