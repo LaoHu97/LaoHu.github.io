@@ -8,12 +8,14 @@ tags:
 
 关于使用CDN（Content Delivery Network）加速站点访问速度汇总指北，总结自己关于自己对CDN以及网络传输的理解。
 
+<!-- more -->
+
 ![Alt text](https://s1.ax1x.com/2018/08/25/PHDOeg.png)
 
 > * 1.关于网址，IP
 > * 2.关于CDN
 > * 3.缓存的两种方式
-> * 4.如何使用CDN加速（[又拍云](https://www.upyun.com)，[阿里云](https://www.aliyun.com)等）
+> * 4.如何使用CDN加速（[又拍云](https://console.upyun.com/register/?invite=HkvfEBqUX)，[阿里云](https://www.aliyun.com)等）
 > * 5.完
 
 ### 关于网址，IP？
@@ -30,13 +32,13 @@ cdn中缓存了服务器上的部分资源。那么服务器怎么去更新cdn�
 
 ![Alt text](https://s1.ax1x.com/2018/08/25/PHrQOO.png)
 
-### 如何使用CDN加速（[又拍云](https://www.upyun.com)，[阿里云](https://www.aliyun.com)等）
+### 如何使用CDN加速（[又拍云](https://console.upyun.com/register/?invite=HkvfEBqUX)，[阿里云](https://www.aliyun.com)等）
 
   ---
 
   <p>
 
-  以[又拍云](https://www.upyun.com)为例，个人感觉[又拍云](https://www.upyun.com)比较好用，设置修改实时生效，融合http和https比较适合新人站长，比如我！！！但是貌似没有免费额度，个人权衡吧。
+  以[又拍云](https://console.upyun.com/register/?invite=HkvfEBqUX)为例，个人感觉[又拍云](https://console.upyun.com/register/?invite=HkvfEBqUX)比较好用，设置修改实时生效，融合http和https比较适合新人站长，比如我！！！但是貌似没有免费额度，个人权衡吧。
 
   **Ⅰ. 首先添加加速域名，支持泛域名，如图**
 
@@ -62,4 +64,4 @@ cdn中缓存了服务器上的部分资源。那么服务器怎么去更新cdn�
 
 ### 完
 
-如有不懂的朋友可以在下面留言。由于本站使用的是日本服务器，本站点正在使用又拍云CDN服务，话说[又拍云](https://www.upyun.com)能不能打赏一点小费啊！！！期待嘤嘤嘤！！！
+如有不懂的朋友可以在下面留言。由于本站使用的是日本服务器，本站点正在使用又拍云CDN服务，话说[又拍云](https://console.upyun.com/register/?invite=HkvfEBqUX)能不能打赏一点小费啊！！！期待嘤嘤嘤！！！
