@@ -477,22 +477,22 @@ pangu: false
 # Baidu Analytics ID
 baidu_analytics: 0d5abd9f2f0e1b0655d4c6aa486e72ea
 
-# Disqus
-disqus:
-  enable: true
-  shortname: lao47
-  count: true
-  lazyload: true
+# # Disqus
+# disqus:
+#   enable: true
+#   shortname: lao47
+#   count: true
+#   lazyload: true
 
-# Disqus APi
-disqusapi:
-  enable: true
-  forum: 'lao47'
-  site: 'https://lao47.xin'
-  api: 'https://lao47.xin/disqus/api'
-  mode: 1
-  badge: '张妖怪'
-  timeout: 2000
+# # Disqus APi
+# disqusapi:
+#   enable: true
+#   forum: 'lao47'
+#   site: 'https://lao47.xin'
+#   api: 'https://lao47.xin/disqus/api'
+#   mode: 1
+#   badge: '张妖怪'
+#   timeout: 2000
 
 # changyan
 changyan:
@@ -523,7 +523,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zOTI1Mi8xNTc3OQ==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -590,7 +590,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-  # google_analytics: UA-122700919-1
+  # google_analytics: 
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
