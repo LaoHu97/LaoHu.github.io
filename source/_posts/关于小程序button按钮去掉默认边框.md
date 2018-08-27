@@ -12,6 +12,8 @@ tags:
   border: none;
 {% endcodeblock %}
 
+<!-- more -->
+
 **给微信小程序button按钮组件添加如下CSS代码：**
 
 {% codeblock %}

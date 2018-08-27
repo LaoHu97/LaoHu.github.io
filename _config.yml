@@ -5,7 +5,7 @@
 # Site
 title: 张妖怪
 subtitle: 张妖怪的博客
-description: 愿我以后活得像个混世大魔王，没心没肺，风生水起。
+description: 愿我以后活得像个混世大魔王。
 keywords: JavaScript,小程序,html5,css3,Jquery,NodeJs,Ubuntu,vps,vpn,服务器,域名,Shadowsocks
 author: 张妖怪
 language: zh-CN
@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://lao47.xin
-root: /lao47/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
