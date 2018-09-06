@@ -7,11 +7,12 @@ tags:
 
 ----------
 
-    服务器地址  : 45.77.47.155
-    服务端口    : 9500
-    连接密码    : lhsgdd123
-    加密方式    : aes-256-cfb
-    ss://YWVzLTI1Ni1jZmI6bGhzZ2RkMTIzQDQ1Ljc3LjQ3LjE1NTo5NTAw
+  服务器地址  :  207.148.127.165 
+  服务端口    :  9500 
+  连接密码    :  lhsgdd123 
+  加密方式    :  aes-256-cfb 
+
+  ss://YWVzLTI1Ni1jZmI6bGhzZ2RkMTIzQDIwNy4xNDguMTI3LjE2NTo5NTAw
 
 <!-- more -->
 
