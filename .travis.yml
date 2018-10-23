@@ -4,13 +4,13 @@ install:
 before_install:
 - npm install -g hexo
 - npm install -g hexo-cli
-- curl -O -L http://downloads.sourceforge.net/project/sshpass/sshpass/1.05/sshpass-1.05.tar.gz && tar xvzf sshpass-1.05.tar.gz && cd sshpass-1.05 && ./configure && make && sudo make install
+# - curl -O -L http://downloads.sourceforge.net/project/sshpass/sshpass/1.05/sshpass-1.05.tar.gz && tar xvzf sshpass-1.05.tar.gz && cd sshpass-1.05 && ./configure && make && sudo make install
 script:
 - hexo clean
 - hexo generate
 - export HEXO_ALGOLIA_INDEXING_KEY=57804367b189015886ebad2958f5aa33
 - hexo algolia
-- sshpass -p 'Tx.9g@8syHxb*rAj' hexo deploy
+- hexo deploy
 after_script:
 - cd ./public
 - git init
