@@ -4,12 +4,13 @@ install:
 before_install:
 - npm install -g hexo
 - npm install -g hexo-cli
+- npm install -g sshpass
 script:
 - hexo clean
 - hexo generate
 - export HEXO_ALGOLIA_INDEXING_KEY=57804367b189015886ebad2958f5aa33
 - hexo algolia
-- ssh -o "StrictHostKeyChecking no" root@207.148.97.207
+- sshpass -p 'Tx.9g@8syHxb*rAj' ssh -o "StrictHostKeyChecking no" root@207.148.97.207
 - hexo deploy
 after_script:
 - cd ./public
