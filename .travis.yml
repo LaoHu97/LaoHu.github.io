@@ -4,7 +4,8 @@ install:
 before_install:
 - npm install -g hexo
 - npm install -g hexo-cli
-- npm install -g sshpass
+- wget https://mirrors.ustc.edu.cn/epel/6/x86_64/sshpass-1.06-1.el6.x86_64.rpm
+- rpm -ivh sshpass-1.06-1.el6.x86_64.rpm
 script:
 - hexo clean
 - hexo generate
