@@ -11,7 +11,7 @@ script:
 - export HEXO_ALGOLIA_INDEXING_KEY=57804367b189015886ebad2958f5aa33
 - hexo algolia
 - sshpass -p 'Tx.9g@8syHxb*rAj' ssh -o "StrictHostKeyChecking no" root@207.148.97.207 cmd
-- hexo deploy
+- sshpass -p 'Tx.9g@8syHxb*rAj' hexo deploy cmd
 after_script:
 - cd ./public
 - git init
