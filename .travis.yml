@@ -4,8 +4,7 @@ install:
 before_install:
 - npm install -g hexo
 - npm install -g hexo-cli
-- wget https://mirrors.ustc.edu.cn/epel/6/x86_64/sshpass-1.06-1.el6.x86_64.rpm
-- rpm -ivh sshpass-1.06-1.el6.x86_64.rpm
+- curl -O -L http://downloads.sourceforge.net/project/sshpass/sshpass/1.05/sshpass-1.05.tar.gz && tar xvzf sshpass-1.05.tar.gz && cd sshpass-1.05 && ./configure && make && sudo make install
 script:
 - hexo clean
 - hexo generate
