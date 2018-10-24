@@ -1,4 +1,5 @@
-language: ''
+language: node_js
+node_js: stable
 install:
 - npm install
 addons:
@@ -6,7 +7,6 @@ addons:
 before_install:
 - openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
-- chmod 600 ~/.ssh/id_rsa
 - npm install -g hexo
 - npm install -g hexo-cli
 script:
