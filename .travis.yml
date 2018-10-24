@@ -5,7 +5,7 @@ addons:
 - ssh_known_hosts: 207.148.97.207
 before_install:
 - openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - npm install -g hexo
 - npm install -g hexo-cli
 script:
