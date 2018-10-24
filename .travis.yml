@@ -1,12 +1,9 @@
-language: ''
+language: 'node_js'
 install:
 - npm install
 addons:
 - ssh_known_hosts: 207.148.97.207
 before_install:
-- openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
-  -in travis.enc -out travis -d
-- chmod 600 ~/.ssh/id_rsa
 - npm install -g hexo
 - npm install -g hexo-cli
 # - curl -O -L http://downloads.sourceforge.net/project/sshpass/sshpass/1.05/sshpass-1.05.tar.gz
