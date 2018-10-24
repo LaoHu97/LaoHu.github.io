@@ -1,4 +1,4 @@
-language: 'node_js'
+language: ''
 install:
 - npm install
 addons:
@@ -6,9 +6,6 @@ addons:
 before_install:
 - npm install -g hexo
 - npm install -g hexo-cli
-# - curl -O -L http://downloads.sourceforge.net/project/sshpass/sshpass/1.05/sshpass-1.05.tar.gz
-#   && tar xvzf sshpass-1.05.tar.gz && cd sshpass-1.05 && ./configure && make && sudo
-#   make install
 script:
 - hexo clean
 - hexo generate
