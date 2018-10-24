@@ -4,6 +4,8 @@ install:
 addons:
 - ssh_known_hosts: 207.148.97.207
 before_install:
+- openssl aes-256-cbc -K $encrypted_f10c947dd520_key -iv $encrypted_f10c947dd520_iv
+  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
 - npm install -g hexo
 - npm install -g hexo-cli
 script:
@@ -26,4 +28,3 @@ branches:
 env:
   global:
   - GH_REF: github.com/LaoHu97/LaoHu97.github.io
-  - secure: wb0YwytROJOAEsoKjchMAGemX03QhZcbs01aJFkycpCt+6p+3JTgeBdgJGFAsozk+DrE+UJIwgn514c398CXJf0mCh5E1ZRbz+zmgtu79JB+db8PQ3Xq4bniY035FoY/JR3/WH587AVM8MM6Sb2No9OEiOHqVa6XgGCvRarnbCKW157VakfKrsl0o2rSyZTFgN2QNBHMhcyXHpAz1vUUt48irdFBdafx/ArsrMlUsxTtrIfHs/hQOjP833zZoZ9/w9KWqyRY/T21pkOp2//fLpdfpIkH4s0iLt9XsK3yt/MxQWq42xY6PCGkFkrxZ9B5SDASqKl+QB1kDUPQHY/94afsLVJSE+deiwJV7N59Z+Kgl5Ds8grCmOPTHlO2LnIbEmjkitXJ+rV6nhnNNI8VV0vBBFJQzUMi+38rN7Y5K9PPQQOkUSZeqNH99crj7z/nbjxDQcuO3Vgb0ia/ZS21CSk+i5B0InzHNgWKdjXQBmM5Mmo1SN6xLZQL8EF9VuDbYEdT4U13Ykvl0I55nPiZiHCCAg6B3v397X7MZXxwu1FJGViksLSKzYGTJ77VFDLcnv2L0A5fzOuAoNVviuLSAYIBahvHEUHa6/B6CtbgrDHdzJJ4SqzWuNJ5TjN7S+xErsFi4KUIcPuJicVu0mOjOFTtLQvZHHKIFFnGhov0EpQ=
