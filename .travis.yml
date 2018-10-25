@@ -19,7 +19,7 @@ script:
 - hexo generate
 - export HEXO_ALGOLIA_INDEXING_KEY=57804367b189015886ebad2958f5aa33
 - hexo algolia
-- sshpass -p 'Tx.9g@8syHxb*rAj' hexo deploy
+- hexo deploy
 after_script:
 - cd ./public
 - git init
