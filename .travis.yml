@@ -7,6 +7,8 @@ addons:
 before_install:
 - openssl aes-256-cbc -K $encrypted_2f78f1094c6c_key -iv $encrypted_2f78f1094c6c_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- echo -e "Host 207.148.97.207\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install -g hexo
 - npm install -g hexo-cli
 script:
