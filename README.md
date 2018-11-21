@@ -15,6 +15,9 @@
   <a href="https://github.com/theme-next/hexo-theme-next">
     <img src="https://img.shields.io/badge/hexo--theme--next-%3E%3D6.4.2-orange.svg" alt="hexo-theme-next">
   </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-red.svg" alt="License">
+  </a>
 </p>
 
 ## 博客地址
