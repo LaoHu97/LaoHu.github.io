@@ -73,19 +73,15 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
-  host: 207.148.97.207
-  user: root
-  root: /www/wwwroot/lao47
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: false
+  type: git
+  repo: https://git.coding.net/laohu97/laohu.git
+  branch: master
+  message: deployInfo
 
 algolia:
   applicationID: '05GFA1Y32V'
