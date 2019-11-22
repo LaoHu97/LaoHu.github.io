@@ -14,8 +14,6 @@ install:
 script:
 - hexo clean
 - hexo generate
-- export HEXO_ALGOLIA_INDEXING_KEY=57804367b189015886ebad2958f5aa33
-- hexo algolia
 # - hexo deploy
 after_script:
 - cd ./public
