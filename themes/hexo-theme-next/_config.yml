@@ -90,8 +90,13 @@ footer:
   # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
   # http://www.miitbeian.gov.cn
   beian:
-    enable: false
-    icp:
+    enable: true
+    icp: 陕ICP备17019128号
+  # 这里是新加的内容，填写公安备案信息
+  gongan:
+    enable: true
+    local: 粤
+    num: 44011202000693
 
   # -------------------------------------------------------------
   # Any custom text can be defined here.
