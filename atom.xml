@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>张妖怪</title>
+  
+  <subtitle>张妖怪的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lao47.xin/"/>
+  <updated>2019-11-22T02:34:30.007Z</updated>
+  <id>http://lao47.xin/</id>
+  
+  <author>
+    <name>张妖怪</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小程序云开发的最佳实践</title>
+    <link href="http://lao47.xin/2018/12/29/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BA%91%E5%BC%80%E5%8F%91%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://lao47.xin/2018/12/29/小程序云开发的最佳实践/</id>
+    <published>2018-12-29T15:35:39.000Z</published>
+    <updated>2019-11-22T02:34:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<p>基于最新小程序云开发功能所开发的一款完全脱离后端的小程序（工具象），持续更新…</p><a id="more"></a><p>项目托管GitHub，地址：<a href="https://github.com/LaoHu97/users-util" target="_blank" rel="noopener">https://github.com/LaoHu97/users-util</a></p><h2 id="扫码预览："><a href="#扫码预览：" class="headerlink" title="扫码预览："></a>扫码预览：</h2><p><img src="https://s1.ax1x.com/2018/12/27/FRmYgH.jpg" alt="Alt text"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;基于最新小程序云开发功能所开发的一款完全脱离后端的小程序（工具象），持续更新…&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="小程序" scheme="http://lao47.xin/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+      <category term="云开发" scheme="http://lao47.xin/tags/%E4%BA%91%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于持续集成服务Travis CI部署服务器的注意事项</title>
+    <link href="http://lao47.xin/2018/10/26/%E5%9F%BA%E4%BA%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E6%9C%8D%E5%8A%A1Travis%20CI%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>http://lao47.xin/2018/10/26/基于持续集成服务Travis CI部署服务器的注意事项/</id>
+    <published>2018-10-26T10:47:44.000Z</published>
+    <updated>2019-11-22T02:34:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<p>总结一下基于持续集成服务Travis CI部署服务器的注意事项以及常见错误。</p><a id="more"></a><p><br><strong> 1️、建议事先了解SSH安全协议以及公钥私钥的具体作用和使用基础</strong><br>因为Travis CI等自动化构建不会产生交互式命令，导致如：yes、密码输入等操作会在构建过程中停止，所以需要密钥让构建工具信任服务器<br><br><strong> 2、公钥私钥的生成需要在Linux系统中生成（重要）</strong><br>可以使用VMware虚拟机等方式<br><br><strong> 3、服务器端SSH需要设置tStrictHostKeyChecking = no</strong><br>可以直接修改服务器文件或在构建过程中加入命令，具体实现请Google<br><br><strong> 4、在.travis.yml同级目录下需要有id_rsa.enc文件</strong><br>此文件为密钥，构建时需要与构建工具中的密钥匹配<br><br></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;总结一下基于持续集成服务Travis CI部署服务器的注意事项以及常见错误。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Travis CI 持续集成" scheme="http://lao47.xin/tags/Travis-CI-%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序下拉刷新不回弹以及回弹过高等问题</title>
+    <link href="http://lao47.xin/2018/09/04/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0%E4%B8%8D%E5%9B%9E%E5%BC%B9%E4%BB%A5%E5%8F%8A%E5%9B%9E%E5%BC%B9%E8%BF%87%E9%AB%98%E7%AD%89%E9%97%AE%E9%A2%98/"/>
+    <id>http://lao47.xin/2018/09/04/微信小程序下拉刷新不回弹以及回弹过高等问题/</id>
+    <published>2018-09-04T14:46:21.000Z</published>
+    <updated>2019-11-22T02:34:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="小程序下拉刷新失效，无法下拉刷新"><a href="#小程序下拉刷新失效，无法下拉刷新" class="headerlink" title="小程序下拉刷新失效，无法下拉刷新"></a>小程序下拉刷新失效，无法下拉刷新</h3><p>解决方法：</p><p>① 检查页面或app.json配置项enablePullDownRefresh和disableScroll是否如下设置</p><a id="more"></a><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"enablePullDownRefresh"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"disableScroll"</span>: <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>② 检查页面page等标签是否存在overflow属性。（这个需要在开发者工具里面查看）</p><h3 id="微信小程序下拉刷新不回弹以及回弹过高"><a href="#微信小程序下拉刷新不回弹以及回弹过高" class="headerlink" title="微信小程序下拉刷新不回弹以及回弹过高"></a>微信小程序下拉刷新不回弹以及回弹过高</h3><p>已按照微信官方文档正确配置下拉刷新参数，但是下拉刷新会出现回弹过高以及无法回弹等问题。</p><p>解决方法：</p><p>下拉刷新中取消wx.showToast、wx.showLoading等交互反馈或延迟交互反馈得时间，需要在下拉刷新动作完全执行完成之后再执行交互反馈，代码如下</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">onPullDownRefresh: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  wx.stopPullDownRefresh()</span><br><span class="line">  <span class="keyword">this</span>.getUserList()</span><br><span class="line">  setTimeout(<span class="function"><span class="params">()</span> =&gt;</span> &#123;</span><br><span class="line">    wx.showToast(&#123;</span><br><span class="line">      title: <span class="string">'刷新成功'</span>,</span><br><span class="line">      icon: <span class="string">'success'</span>,</span><br><span class="line">      duration: <span class="number">2000</span></span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;, <span class="number">800</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;小程序下拉刷新失效，无法下拉刷新&quot;&gt;&lt;a href=&quot;#小程序下拉刷新失效，无法下拉刷新&quot; class=&quot;headerlink&quot; title=&quot;小程序下拉刷新失效，无法下拉刷新&quot;&gt;&lt;/a&gt;小程序下拉刷新失效，无法下拉刷新&lt;/h3&gt;&lt;p&gt;解决方法：&lt;/p&gt;
+&lt;p&gt;① 检查页面或app.json配置项enablePullDownRefresh和disableScroll是否如下设置&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="小程序" scheme="http://lao47.xin/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于微信小程序button按钮组件去掉默认边框</title>
+    <link href="http://lao47.xin/2018/08/27/%E5%85%B3%E4%BA%8E%E5%B0%8F%E7%A8%8B%E5%BA%8Fbutton%E6%8C%89%E9%92%AE%E5%8E%BB%E6%8E%89%E9%BB%98%E8%AE%A4%E8%BE%B9%E6%A1%86/"/>
+    <id>http://lao47.xin/2018/08/27/关于小程序button按钮去掉默认边框/</id>
+    <published>2018-08-27T16:32:11.000Z</published>
+    <updated>2019-11-22T02:34:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>关于微信小程序button按钮组件使用如下CSS样式覆盖默认样式无效：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">border: none;</span><br></pre></td></tr></table></figure><a id="more"></a><p><strong>给微信小程序button按钮组件添加如下CSS代码：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">button[type=primary]::after &#123;</span><br><span class="line">  border: 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>原因：为什么要使用:after和:before来写button按钮的边框</strong></p><p>可能是因为:after和:before具有更强的扩展性，具体原因还望大神告知，万分感谢！！！ </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;关于微信小程序button按钮组件使用如下CSS样式覆盖默认样式无效：&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;border: none;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="小程序" scheme="http://lao47.xin/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用CDN（Content Delivery Network）加速站点访问速度汇总指北</title>
+    <link href="http://lao47.xin/2018/08/24/%E4%BD%BF%E7%94%A8CDN%EF%BC%88Content%20Delivery%20Network%EF%BC%89%E5%8A%A0%E9%80%9F%E7%AB%99%E7%82%B9%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E6%B1%87%E6%80%BB%E6%8C%87%E5%8C%97/"/>
+    <id>http://lao47.xin/2018/08/24/使用CDN（Content Delivery Network）加速站点访问速度汇总指北/</id>
+    <published>2018-08-24T10:39:27.000Z</published>
+    <updated>2019-11-22T02:34:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于使用CDN（Content Delivery Network）加速站点访问速度汇总指北，总结自己关于自己对CDN以及网络传输的理解。</p><a id="more"></a><p><img src="https://s1.ax1x.com/2018/08/25/PHDOeg.png" alt="Alt text"></p><blockquote><ul><li>1.关于网址，IP</li><li>2.关于CDN</li><li>3.缓存的两种方式</li><li>4.如何使用CDN加速（<a href="https://console.upyun.com/register/?invite=HkvfEBqUX" target="_blank" rel="noopener">又拍云</a>，<a href="https://www.aliyun.com" target="_blank" rel="noopener">阿里云</a>等）</li><li>5.完</li></ul></blockquote><h3 id="关于网址，IP？"><a href="#关于网址，IP？" class="headerlink" title="关于网址，IP？"></a>关于网址，IP？</h3><p>网址，顾名思义就是互联网上的一个地址，如<span><a href="http://www.baidu.com" target="_blank" rel="noopener">http://www.baidu.com</a></span>等。当用户在互联网上访问一个网页时，实际上用户访问的是一个服务器，阿里云等。但是服务器是没有网址的，它有另一个名字，叫IP，所以网址和IP对应起来，用户就可以通过网址或IP访问我们的是服务器（互联网），这里就需要另一个东西，DNS解析。负责把网址和IP对应起来，一般可以通过域名服务商设置。</p><h3 id="关于CDN"><a href="#关于CDN" class="headerlink" title="关于CDN"></a>关于CDN</h3><p>上面说了DNS解析，DNS解析就是把网址解析到对应的IP地址上，CDN就是在DNS解析过程中做手脚，cdn全称是内容分发网络。其目的是让用户能够更快速的得到请求的数据。简单来讲，cdn就是用来加速的，他能让用户就近访问数据，这样就更更快的获取到需要的数据。举个例子，现在服务器在北京，深圳的用户想要获取服务器上的数据就需要跨越一个很远的距离，这显然就比北京的用户访问北京的服务器速度要慢。但是现在我们在深圳建立一个cdn服务器，上面缓存住一些数据，深圳用户访问时先访问这个cdn服务器，如果服务器上有用户请求的数据就可以直接返回，这样速度就大大的提升了。</p><h3 id="缓存的两种方式"><a href="#缓存的两种方式" class="headerlink" title="缓存的两种方式"></a>缓存的两种方式</h3><p>cdn中缓存了服务器上的部分资源。那么服务器怎么去更新cdn节点的缓存呢？这里有两种方式，一种是服务器主动去更新缓存，cdn节点被动接受。另一种方式是当用户请求的资源不存在时，cdn服务器向上游服务器发起请求，更新缓存，然后将数据返回给用户，这种方式是cdn服务器主动，源站服务器被动。显然第一种方式存在很多问题，例如很容易产生404等，所以一般采用第二种缓存方式。</p><p><img src="https://s1.ax1x.com/2018/08/25/PHrQOO.png" alt="Alt text"></p><h3 id="如何使用CDN加速（又拍云，阿里云等）"><a href="#如何使用CDN加速（又拍云，阿里云等）" class="headerlink" title="如何使用CDN加速（又拍云，阿里云等）"></a>如何使用CDN加速（<a href="https://console.upyun.com/register/?invite=HkvfEBqUX" target="_blank" rel="noopener">又拍云</a>，<a href="https://www.aliyun.com" target="_blank" rel="noopener">阿里云</a>等）</h3><hr>  <p><br><br>  以<a href="https://console.upyun.com/register/?invite=HkvfEBqUX" target="_blank" rel="noopener">又拍云</a>为例，个人感觉<a href="https://console.upyun.com/register/?invite=HkvfEBqUX" target="_blank" rel="noopener">又拍云</a>比较好用，设置修改实时生效，融合http和https比较适合新人站长，比如我！！！但是貌似没有免费额度，个人权衡吧。<br><br>  <strong>Ⅰ. 首先添加加速域名，支持泛域名，如图</strong><br><br>  注意：回源地址填写资源服务器IP地址或网址，网址不能与加速域名相同，回源地址就是需要被动访问缓存的的资源地址，CDN缓存资源的地址。<br><br>  <img src="https://s1.ax1x.com/2018/08/25/PHswCR.png" alt="img"><br><br>  <strong>Ⅱ. 选择需要在那些地方进行CDN的加速缓存</strong><br><br>  一般分为全球加速和国内加速。<br><br>  <img src="https://s1.ax1x.com/2018/08/25/PHsa59.png" alt="img"><br><br>  <strong>Ⅲ. 点击创建完成</strong><br><br>  然后在域名服务商处添加一个域名解析，如下图,记录类型为CNAME；主机记录处填子域名（比如需要添加 xxxxx.example.com 的解析，只需要在主机记录处填写 xxxxx 即可;如果添加主域名 example.com 的解析，在主机记录处填写 @）；    记录值填写CDN服务商提供的cname值；其他默认就可以。<br><br>  <img src="https://s1.ax1x.com/2018/08/25/PH687F.png" alt="img"><br><br>  </p><hr><h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3><p>如有不懂的朋友可以在下面留言。由于本站使用的是日本服务器，本站点正在使用又拍云CDN服务，话说<a href="https://console.upyun.com/register/?invite=HkvfEBqUX" target="_blank" rel="noopener">又拍云</a>能不能打赏一点小费啊！！！期待嘤嘤嘤！！！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;关于使用CDN（Content Delivery Network）加速站点访问速度汇总指北，总结自己关于自己对CDN以及网络传输的理解。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="CDN" scheme="http://lao47.xin/tags/CDN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode：在签出前，请清理存储库工作树。</title>
+    <link href="http://lao47.xin/2018/07/20/VSCode%EF%BC%9A%E5%9C%A8%E7%AD%BE%E5%87%BA%E5%89%8D%EF%BC%8C%E8%AF%B7%E6%B8%85%E7%90%86%E5%AD%98%E5%82%A8%E5%BA%93%E5%B7%A5%E4%BD%9C%E6%A0%91%E3%80%82/"/>
+    <id>http://lao47.xin/2018/07/20/VSCode：在签出前，请清理存储库工作树。/</id>
+    <published>2018-07-20T10:31:42.000Z</published>
+    <updated>2019-11-22T02:34:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于VSCode在签出更新代码时报错：<strong>在签出前，请清理存储库工作树</strong>，问题主要是git仓库上的代码和本地代码存在冲突。</p><a id="more"></a><p><img src="https://s1.ax1x.com/2018/07/20/P3hXUe.png" alt="Alt text"></p><blockquote><p>查看git日志：Please commit your changes or stash them before you merge. Aborting</p></blockquote><h4 id="1-手动解决代码冲突"><a href="#1-手动解决代码冲突" class="headerlink" title="1.手动解决代码冲突"></a>1.手动解决代码冲突</h4>  <figure class="highlight plain"><figcaption><span>1.切换到git代码目录</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git stash</span><br><span class="line">git pull</span><br><span class="line">git stash pop</span><br><span class="line">  </span><br></pre></td></tr></table></figure><pre><code>2.手动解决冲突文件</code></pre><p>git stash: 备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。<br>git stash pop: 从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。</p><h4 id="2-放弃本地修改，直接覆盖"><a href="#2-放弃本地修改，直接覆盖" class="headerlink" title="2.放弃本地修改，直接覆盖"></a>2.放弃本地修改，直接覆盖</h4>  <figure class="highlight plain"><figcaption><span>切换到git代码目录</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard</span><br><span class="line">git pull</span><br><span class="line">  </span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;关于VSCode在签出更新代码时报错：&lt;strong&gt;在签出前，请清理存储库工作树&lt;/strong&gt;，问题主要是git仓库上的代码和本地代码存在冲突。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="问题" scheme="http://lao47.xin/tags/%E9%97%AE%E9%A2%98/"/>
+    
+      <category term="VSCode" scheme="http://lao47.xin/tags/VSCode/"/>
+    
+  </entry>
+  
+</feed>
